@@ -507,7 +507,6 @@ button {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
 
@@ -755,7 +754,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(49, 40, 13, 0.918);
   padding: 40px 40px 40px 40px;
 }
 
@@ -773,20 +772,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #ec5813;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #ec5813;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #cc6333 !important;
   color: #ffffff !important;
 }
 
@@ -795,15 +794,15 @@ h4 {
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #ec5813 !important;
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #ec5813 !important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #cc6333 !important;
 }
 
 .icon-dark-slate-blue {
