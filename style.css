@@ -1043,10 +1043,24 @@ h4 {
 }
 
 /* ADD FOR SEO */
+.replace li {
+  list-style-type: none;
+}
+.replace a {
+  text-decoration: none;
+}
+@media (min-width: 767px) {
+  .replace {
+    position: absolute;
+    right:15%;
+  }
+  .replace, li {
+    padding-left: 20px;
+  }
+}
 .citation {
   padding: 30px;
 }
-
 .citation p {
   font-size: 20px;
   font-weight: bold;
