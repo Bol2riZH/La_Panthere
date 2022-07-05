@@ -1068,3 +1068,15 @@ h4 {
 .citation span {
   font-weight: normal;
 }
+.navbar-header img {
+  height: 40px;
+  width: 200px;
+}
+#bloc-1-hero img {
+  width: 100px;
+  height: 100px;
+}
+#bloc-4-portfolio img {
+  width: 270px;
+  height: 270px;
+}
