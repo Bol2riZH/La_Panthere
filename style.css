@@ -1092,14 +1092,15 @@ h4 {
 }
 label {
   font-weight: bold;
+  margin-bottom: 2px;
 }
 input {
-  width: 350px;
+  width: 470px;
   height: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 textarea {
-  width: 350px;
+  width: 470px;
 }
 
 /* social network logo accessibility */
@@ -1127,4 +1128,9 @@ textarea {
 #bloc-2-services h2 {
   max-width: 630px;
   margin: auto;
+}
+
+/* delete toggle navigation text */
+.sr-only {
+  display: none;
 }
