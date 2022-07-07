@@ -1037,24 +1037,12 @@ h4 {
 }
 
 /* ADD FOR SEO */
+/* h2 index (page 1) mobile friendly */
+#bloc-2-services h2 {
+  max-width: 630px;
+  margin: auto;
+}
 
-/* navbar on page2 */
-.replace li {
-  list-style-type: none;
-}
-.replace a {
-  text-decoration: none;
-}
-@media (min-width: 767px) {
-  .replace {
-    position: absolute;
-    right: 15%;
-  }
-  .replace,
-  li {
-    padding-left: 20px;
-  }
-}
 /* citation replace by text on index (page 1) */
 .citation {
   padding: 30px;
@@ -1085,24 +1073,6 @@ h4 {
   }
 }
 
-/* rearrange the form */
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-label {
-  font-weight: bold;
-  margin-bottom: 2px;
-}
-input {
-  width: 470px;
-  height: 25px;
-  margin-bottom: 20px;
-}
-textarea {
-  width: 470px;
-}
-
 /* social network logo accessibility */
 .social a {
   display: flex;
@@ -1117,20 +1087,14 @@ textarea {
   justify-content: space-around;
 }
 
-/* portfolio mobile friendly */
+/* portfolio mobile friendly index (page1)*/
 @media (max-width: 767px) {
   #bloc-4-portfolio img {
     width: 100%;
   }
 }
 
-/* h2 index (page 1) mobile friendly */
-#bloc-2-services h2 {
-  max-width: 630px;
-  margin: auto;
-}
-
-/* delete toggle navigation text */
+/* delete toggle navigation text (page 2)*/
 .sr-only {
   display: none;
 }
